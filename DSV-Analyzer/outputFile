@@ -1,0 +1,11 @@
+--------------------------Encountered File Structured--------------------------
+{ id : Number, firstname : String, lastname : String, email : String, Field Name : String} ----> 29 time\s
+{ firstname : String, lastname : String, email : String, Field Name : String} ----> 15 time\s
+{ Year : Number, Make : String, Model : String, Description : String, Price : Number} ----> 1 time\s
+{ Sepal length : Number, Sepal width : Number, Petal length : Number, Petal width : Number, Species : String} ----> 1 time\s
+--------------------------Encountered File Formats--------------------------
+Delimiter = Semi-Colon  Formats:[String, String, String, String] ----> 15 time\s
+Delimiter = Comma  Formats:[NumberFormat : No format for the number, String, String, String, String] ----> 14 time\s
+Delimiter = Tab  Formats:[NumberFormat : Thousand Separator->comma, Digital Separator ->dot, NumberFormat : Thousand Separator->comma, Digital Separator ->dot, NumberFormat : Thousand Separator->comma, Digital Separator ->dot, NumberFormat : Thousand Separator->comma, Digital Separator ->dot, String] ----> 1 time\s
+Delimiter = Semi-Colon  Formats:[NumberFormat : No format for the number, String, String, String, String] ----> 15 time\s
+Delimiter = Comma  Formats:[NumberFormat : No format for the number, String, String, String, NumberFormat : Thousand Separator->space, Digital Separator ->dot] ----> 1 time\s
