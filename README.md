@@ -1,4 +1,12 @@
 # DSV-Analyzer
+
+This is a multi-threaded tool for analyzing files with [DSV File Format](https://en.wikipedia.org/wiki/Delimiter-separated_values).
+For each found file a format and structure is guessed:
+- which delimiter is used (comma, tab and semicolons are possible),
+- which digital (dot or comma) and thousand (dot, comma or space) separators are used for numbers,
+- which date format is used (DD/MM/YYYY, MM/DD/YYYY, YYYY/MM/DD, DD.MM.YYYY, MM.DD.YYYY, YYYY.MM.DD are possible),
+- which are data types for columns (number, date, string could be used).
+
 ## Assumptions
 1. If a number contains delimiters, then it must contain both digital and a thousand separators
 2. That each column should follow the same format 
